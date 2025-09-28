@@ -9,9 +9,11 @@ on:
       gh_pc_name:
         description: "PC Name (displayed in CRD)"
         required: true
+        default: "RDP-SEONE"
       gh_pin_crd:
         description: "PIN (min 6 digits)"
         required: true
+        default: "123321"
       runtime_minutes:
         description: "Runtime in minutes (max 360; default 355)"
         default: "355"
